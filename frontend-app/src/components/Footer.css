@@ -1,0 +1,90 @@
+.social {
+    background-color: #2F4F4F;
+    width: 100%;
+    padding: 15px 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.social .social-icons {
+    display: flex;
+    gap: 14px; 
+    padding-left: 80px; 
+}
+
+.social .social-icons a {
+    color: #fff; 
+    transition: color 0.3s ease; 
+}
+.social .social-icons a:hover {
+    color: #ffd700; 
+    background-color: #fff; 
+    border-radius: 20%;
+    
+}
+
+.social .social-icons a:nth-child(1):hover {
+    color: #3b5998; 
+}
+
+.social .social-icons a:nth-child(2):hover {
+    color: #e4405f; 
+}
+
+.social .social-icons a:nth-child(3):hover {
+    color: #bd081c;
+}
+
+.social .social-icons a:nth-child(4):hover {
+    color: #0077b5;
+}
+
+.social .social-icons a:nth-child(5):hover {
+    color: #1db954; 
+}
+
+@media screen and (max-width: 1186px) {
+    .social .social-icons {
+        padding-left: 60px; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .social .social-icons {
+        padding-left: 40px; 
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .social .social-icons {
+        padding-left: 20px; 
+    }
+}
+
+
+.social .copyright {
+    color: #ccc; 
+    padding-right: 60px;
+    font-size: 12px; 
+}
+
+.social .copyright b {
+    font-weight: 550;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.social .copyright a {
+    color: #ffd700; 
+    text-decoration: none; 
+}
+
+.social .copyright a:hover {
+    text-decoration: underline;
+}
+
+
+
